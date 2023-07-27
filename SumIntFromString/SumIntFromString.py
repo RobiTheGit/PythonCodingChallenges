@@ -2,7 +2,7 @@
 import re
 def IntToString(String):
     sums = 0
-    String = re.sub(r"[^0-9]", " ", String)
+    String = re.sub(r"[^0-9]", "", String)
     for i in String:
         try:
             i = int(i)
