@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import re
 def CharacterOccurences(string, char):
     x = 0
     for i in string:
